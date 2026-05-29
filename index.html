@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ketrina Martinaj — Ergonomist and Occupational Safety Specialist. Expert in biomechanical risk assessment using OCRA, NIOSH, RULA and REBA.">
+  <meta name="author" content="Ketrina Martinaj">
+  <meta property="og:title" content="Ketrina Martinaj | Ergonomist">
+  <meta property="og:description" content="Biomechanical risk assessment specialist based in Pisa, Italy.">
+  <meta property="og:type" content="website">
+  <title>Ketrina Martinaj | Ergonomist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <!-- Apply theme before first paint to avoid flash -->
+  <script>
+    (function(){
+      var stored = localStorage.getItem('km_theme');
+      var theme  = stored || 'dark';
+      document.documentElement.dataset.theme = theme;
+    })();
+  </script>
+</head>
+<body>
+
+  <!-- ── Header ─────────────────────────────────────────────────────────────── -->
+  <header id="header" class="header">
+    <div class="header-inner">
+      <a href="#" class="brand" aria-label="Ketrina Martinaj — home">
+        <img src="assets/images/profile.jpg" alt="Ketrina Martinaj" class="brand-avatar">
+      </a>
+
+      <nav id="nav" class="nav" aria-label="Main navigation">
+        <ul id="nav-list" class="nav-list">
+          <!-- populated by main.js -->
+        </ul>
+      </nav>
+
+      <div class="lang-switcher" role="group" aria-label="Language selector">
+        <button class="lang-btn active" data-lang="en" aria-label="Switch to English">EN</button>
+        <button class="lang-btn"        data-lang="es" aria-label="Cambiar a Español">ES</button>
+        <button class="lang-btn"        data-lang="it" aria-label="Passa all'Italiano">IT</button>
+      </div>
+
+      <button class="theme-btn" id="theme-btn" aria-label="Toggle theme">
+        <!-- Sun: shown in dark mode → click to go light -->
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/>
+        </svg>
+        <!-- Moon: shown in light mode → click to go dark -->
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+      </button>
+
+      <button id="hamburger" class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ── Hero ───────────────────────────────────────────────────────────────── -->
+    <section class="hero" id="home" aria-label="Introduction">
+      <div class="container hero-layout">
+        <!-- Text LEFT -->
+        <div class="hero-text">
+          <p class="hero-eyebrow" id="hero-eyebrow"></p>
+          <h1 class="hero-name">Ketrina<br>Martinaj</h1>
+          <p class="hero-tagline" id="hero-tagline"></p>
+          <div class="hero-tags" aria-label="Key methods">
+            <span class="tag">OCRA</span>
+            <span class="tag">NIOSH</span>
+            <span class="tag">RULA</span>
+            <span class="tag">REBA</span>
+            <span class="tag">D.Lgs.&nbsp;81/08</span>
+          </div>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary" id="hero-cta"></a>
+            <a href="#experience" class="btn btn-outline" id="hero-explore"></a>
+            <a href="martinajketrinacv.pdf"
+               download="Ketrina_Martinaj_CV.pdf"
+               class="btn btn-ghost" id="hero-download">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 15V3m0 12-4-4m4 4 4-4M2 17l.621 2.485A2 2 0 0 0 4.561 21h14.878a2 2 0 0 0 1.94-1.515L22 17"/></svg>
+              <span id="hero-dl-label"></span>
+            </a>
+          </div>
+        </div>
+        <!-- Circle avatar RIGHT -->
+        <div class="hero-avatar">
+          <img src="assets/images/profile.jpg" alt="Ketrina Martinaj" class="avatar-img"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <div class="avatar-fallback" aria-hidden="true">KM</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── About ──────────────────────────────────────────────────────────────── -->
+    <section class="section" id="about" aria-labelledby="title-about">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label" id="label-about"></span>
+          <h2 class="section-title" id="title-about"></h2>
+        </div>
+        <div class="about-layout">
+          <p class="about-text reveal" id="about-text"></p>
+          <div class="stats-grid reveal">
+            <div class="stat-card">
+              <span class="stat-num">4+</span>
+              <span class="stat-label" id="stat-label-years"></span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">4</span>
+              <span class="stat-label" id="stat-label-methods"></span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">3</span>
+              <span class="stat-label" id="stat-label-languages"></span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">11+</span>
+              <span class="stat-label" id="stat-label-certs"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Experience ─────────────────────────────────────────────────────────── -->
+    <section class="section section--alt" id="experience" aria-labelledby="title-experience">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label" id="label-experience"></span>
+          <h2 class="section-title" id="title-experience"></h2>
+        </div>
+        <div id="experience-list" class="timeline"></div>
+      </div>
+    </section>
+
+    <!-- ── Education ──────────────────────────────────────────────────────────── -->
+    <section class="section" id="education" aria-labelledby="title-education">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label" id="label-education"></span>
+          <h2 class="section-title" id="title-education"></h2>
+        </div>
+        <div id="education-list" class="timeline"></div>
+      </div>
+    </section>
+
+    <!-- ── Skills ─────────────────────────────────────────────────────────────── -->
+    <section class="section section--alt" id="skills" aria-labelledby="title-skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label" id="label-skills"></span>
+          <h2 class="section-title" id="title-skills"></h2>
+        </div>
+        <div class="skills-grid">
+
+          <div class="skills-card reveal">
+            <h3 class="skills-card-title" id="title-tech"></h3>
+            <ul id="list-tech" class="skill-list"></ul>
+          </div>
+
+          <div class="skills-card reveal">
+            <h3 class="skills-card-title" id="title-it"></h3>
+            <ul id="list-it" class="skill-list"></ul>
+          </div>
+
+          <div class="skills-card reveal">
+            <h3 class="skills-card-title" id="title-langs"></h3>
+            <div id="list-langs"></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Certifications ─────────────────────────────────────────────────────── -->
+    <section class="section" id="certifications" aria-labelledby="title-certs">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label" id="label-certs"></span>
+          <h2 class="section-title" id="title-certs"></h2>
+        </div>
+        <div id="cert-grid" class="cert-grid"></div>
+      </div>
+    </section>
+
+    <!-- ── Contact ────────────────────────────────────────────────────────────── -->
+    <section class="section section--dark" id="contact" aria-labelledby="title-contact">
+      <div class="container contact-container">
+        <div class="section-header reveal">
+          <span class="section-label section-label--light" id="label-contact"></span>
+          <h2 class="section-title section-title--light" id="title-contact"></h2>
+        </div>
+        <div class="contact-row reveal">
+          <a href="mailto:ketrinamartinaj22@gmail.com" class="contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
+            ketrinamartinaj22@gmail.com
+          </a>
+          <span class="contact-divider" aria-hidden="true"></span>
+          <a href="https://www.linkedin.com/in/ketrinamartinaj" target="_blank" rel="noopener noreferrer" class="contact-item">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            linkedin.com/in/ketrinamartinaj
+          </a>
+          <span class="contact-divider" aria-hidden="true"></span>
+          <span class="contact-item contact-item--plain">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Pisa, Italy
+          </span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── Footer ─────────────────────────────────────────────────────────────── -->
+  <footer class="footer">
+    <p class="footer-copy">&copy; <span id="footer-year"></span> Ketrina Martinaj</p>
+  </footer>
+
+  <!-- ═══════════════════════════════════════════════════════════════════════════
+       TEMPLATES
+       Change the markup here to change card/item layout — no JS edits needed.
+  ════════════════════════════════════════════════════════════════════════════ -->
+
+  <!-- Timeline item (used for both Experience and Education) -->
+  <template id="tmpl-timeline-item">
+    <div class="timeline-item reveal">
+      <div class="timeline-dot" aria-hidden="true"></div>
+      <div class="timeline-card">
+        <div class="timeline-card-header">
+          <div class="org-logo" data-bind="logo" aria-hidden="true"></div>
+          <div class="timeline-card-info">
+            <h3 class="timeline-title" data-bind="title"></h3>
+            <p class="timeline-org" data-bind="org"></p>
+            <div class="timeline-meta">
+              <span class="timeline-dates" data-bind="dates"></span>
+              <span class="timeline-duration" data-bind="duration"></span>
+            </div>
+          </div>
+        </div>
+        <ul class="timeline-resp" data-bind="list"></ul>
+        <p class="timeline-note" data-bind="note"></p>
+      </div>
+    </div>
+  </template>
+
+  <!-- Language proficiency row -->
+  <template id="tmpl-lang-row">
+    <div class="lang-row reveal">
+      <div class="lang-row-header">
+        <span class="lang-name"  data-bind="lang-name"></span>
+        <span class="lang-level" data-bind="lang-level"></span>
+      </div>
+      <div class="lang-track" aria-hidden="true">
+        <div class="lang-fill"></div>
+      </div>
+    </div>
+  </template>
+
+  <!-- Certification group card -->
+  <template id="tmpl-cert-group">
+    <div class="cert-group reveal">
+      <h3 class="cert-group-title" data-bind="cert-cat"></h3>
+      <ul class="cert-list" data-bind="cert-list"></ul>
+    </div>
+  </template>
+
+  <!-- ── Scripts ────────────────────────────────────────────────────────────── -->
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script>
+    // Footer year (no framework needed)
+    document.getElementById('footer-year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

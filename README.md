@@ -12,7 +12,7 @@ Biomechanical risk assessment · Pisa, Italy
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ketrinamartinaj-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ketrinamartinaj)
 [![Email](https://img.shields.io/badge/Email-ketrinamartinaj22%40gmail.com-1A7A8C?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ketrinamartinaj22@gmail.com)
-[![Website](https://img.shields.io/badge/Website-ketrinamartinaj.github.io-F59E0B?style=for-the-badge&logo=githubpages&logoColor=white)]([https://ketrinamartinaj.github.io/ketrinamartinaj/](https://ketrinamartinaj.github.io/ketrinamartinaj/))
+[![Website](https://img.shields.io/badge/Website-ketrinamartinaj.github.io-F59E0B?style=for-the-badge&logo=githubpages&logoColor=white)](https://ketrinamartinaj.github.io/ketrinamartinaj/](https://ketrinamartinaj.github.io/ketrinamartinaj/)
 
 </div>
 

@@ -21,14 +21,50 @@ const personal = {
 
 // ── Professional summary ─────────────────────────────────────────────────────
 const summary = {
-  en: 'Graduate in Environmental and Workplace Prevention Techniques and ASPP, with training and practical experience in risk assessment and ergonomic analysis. I have gained experience through internships and field activities, handling workplace inspections, data collection and support in writing technical reports. Skilled in biomechanical overload risk assessment using OCRA, NIOSH, RULA and REBA methods. Motivated to apply my expertise in both industrial and construction environments, with a strong focus on risk prevention and operational safety.',
-  es: 'Graduada en Técnicas de Prevención en el Entorno y Lugares de Trabajo y ASPP, con formación y experiencia práctica en evaluación de riesgos y análisis ergonómico. He adquirido experiencia a través de prácticas y actividades de campo, ocupándome de inspecciones, recopilación de datos y apoyo en la redacción de informes técnicos. Competente en la evaluación del riesgo por sobrecarga biomecánica mediante métodos OCRA, NIOSH, RULA y REBA. Motivada a aplicar mis competencias tanto en el ámbito industrial como en obras de construcción, con especial atención a la prevención de riesgos y la seguridad operativa.',
-  it: "Laureata in Tecniche della Prevenzione nell'Ambiente e nei Luoghi di Lavoro e ASPP, con formazione ed esperienza pratica nella valutazione dei rischi e nell'analisi ergonomica. Ho maturato esperienza attraverso tirocini e attività sul campo, occupandomi di ispezioni, raccolta dati e supporto alla redazione di report tecnici. Competente nella valutazione del rischio da sovraccarico biomeccanico mediante metodi OCRA, NIOSH, RULA e REBA. Motivata ad applicare le mie competenze sia in ambito industriale che nei cantieri, con attenzione alla prevenzione dei rischi e alla sicurezza operativa."
+  en: 'Graduate in Environmental and Workplace Prevention Techniques, ASPP-qualified and trained as Safety Supervisor (Preposto), with practical experience in occupational health and safety on construction and industrial sites. Currently working as HSE Assistant in the Works Management team of a Snam gas storage project, supporting the Safety Coordinator during the execution phase, managing Permits to Work and carrying out site inspections in compliance with D.Lgs. 81/08 and D.Lgs. 624/96. Earlier experience with public health and environmental bodies in workplace inspections, risk assessment, data collection and technical reporting. Strongly committed to risk prevention and operational safety.',
+  es: 'Graduada en Técnicas de Prevención en el Entorno y Lugares de Trabajo, con cualificación ASPP y formación como Preposto (Encargado de Seguridad), con experiencia práctica en seguridad y salud laboral en obras y entornos industriales. Actualmente trabajo como HSE Assistant en el equipo de Dirección de Obra de un proyecto de almacenamiento de gas de Snam, apoyando al Coordinador de Seguridad en fase de ejecución, gestionando los Permisos de Trabajo y realizando inspecciones en obra conforme al D.Lgs. 81/08 y al D.Lgs. 624/96. Experiencia previa en organismos públicos de salud y medio ambiente en inspecciones de lugares de trabajo, evaluación de riesgos, recopilación de datos e informes técnicos. Fuerte compromiso con la prevención de riesgos y la seguridad operativa.',
+  it: "Laureata in Tecniche della Prevenzione nell'Ambiente e nei Luoghi di Lavoro, abilitata ASPP e formata come Preposto alla Sicurezza, con esperienza pratica in materia di salute e sicurezza sul lavoro in cantieri e contesti industriali. Attualmente lavoro come HSE Assistant nel team di Direzione Lavori di un progetto Snam di stoccaggio gas, a supporto del Coordinatore per la Sicurezza in fase di esecuzione, con gestione dei Permessi di Lavoro e sopralluoghi in cantiere nel rispetto del D.Lgs. 81/08 e del D.Lgs. 624/96. Esperienze precedenti presso enti pubblici di sanità e ambiente in ispezioni nei luoghi di lavoro, valutazione dei rischi, raccolta dati e redazione di report tecnici. Forte attenzione alla prevenzione dei rischi e alla sicurezza operativa."
 };
 
 // ── Professional experience ──────────────────────────────────────────────────
 // startDate / endDate: { month: 1-12, year: YYYY } — endDate null = current role
 const experience = [
+  {
+    id: 'cpm-tecasaldo',
+    title: {
+      en: 'HSE Assistant (Works Management Office) – Snam Storage Project',
+      es: 'Asistente HSE (Oficina de Dirección de Obra) – Proyecto Snam Stoccaggio',
+      it: 'HSE Assistant (Ufficio Direzione Lavori) – Progetto Snam Stoccaggio'
+    },
+    organization: 'CPM Tecasaldo (Technip Energies)',
+    location: 'Sergnano, CR',
+    logo: { abbr: 'TEN', bg: '#fff', src: 'assets/images/technip.png' },
+    startDate: { month: 7, year: 2026 },
+    endDate: null,
+    responsibilities: {
+      en: [
+        'HSE oversight and technical-operational site support within the Works Management team for the preventive archaeological surveys at the Sergnano Gas Storage Plant (Client: Snam; Contractor: Pizio S.p.A.; Executing company: Cesub S.r.l.)',
+        'Safety and coordination: operational support to the Safety Coordinator (CSE) for compliance with D.Lgs. 81/08 and D.Lgs. 624/96; field inspections with preparation of verification reports',
+        'Permit to Work (PtW) management: issuing, checking and validating Permits to Work (hot work, deep excavations, confined spaces), verifying safety conditions before activities start inside the plant',
+        'Site surveillance: inspection visits with reports; operational oversight of the delicate phases linked to Unexploded Ordnance Clearance (surface clearance and preparation for deep clearance) and to preventive archaeological excavations',
+        'Site reporting: management and updating of the Works Log, daily reports and the progress register (SAL)'
+      ],
+      es: [
+        'Control HSE y apoyo técnico-operativo en obra dentro del equipo de Dirección de Obra para los sondeos arqueológicos preventivos en la Central de Almacenamiento de Gas de Sergnano (Cliente: Snam; Contratista: Pizio S.p.A.; Ejecutora: Cesub S.r.l.)',
+        'Seguridad y coordinación: apoyo operativo al Coordinador de Seguridad (CSE) para el cumplimiento del D.Lgs. 81/08 y del D.Lgs. 624/96; inspecciones en campo con redacción de actas de verificación',
+        'Gestión de Permisos de Trabajo (PtW): emisión, control y validación de los Permits to Work (trabajos en caliente, excavaciones profundas, espacios confinados), verificando las condiciones de seguridad antes del inicio de las actividades en la planta',
+        'Vigilancia de campo: inspecciones con redacción de actas; control operativo de las fases delicadas ligadas a la Desactivación de Artefactos Explosivos Bélicos (superficial y preparación de la profunda) y a las excavaciones arqueológicas preventivas',
+        'Documentación de obra: gestión y actualización del Libro de Obra, de los partes diarios y del registro de avance (SAL)'
+      ],
+      it: [
+        'Presidio HSE e supporto tecnico-operativo in cantiere nel team di Direzione Lavori per i saggi archeologici preventivi presso la Centrale di Stoccaggio Gas di Sergnano (Committente: Snam; Appaltatore: Pizio S.p.A.; Esecutrice: Cesub S.r.l.)',
+        'Sicurezza e coordinamento: supporto operativo al CSE per il rispetto del D.Lgs. 81/08 e del D.Lgs. 624/96; sopralluoghi in campo con stesura dei verbali di verifica',
+        "Gestione Permessi di Lavoro (PtW): emissione, controllo e validazione dei Permits to Work (lavori a caldo, scavi profondi, spazi confinati), verificando la conformità delle condizioni di sicurezza prima dell'inizio delle attività in impianto",
+        'Vigilanza di campo: sopralluoghi ispettivi e stesura dei relativi verbali; presidio operativo delle fasi delicate legate alla Bonifica Ordigni Bellici (BOB superficiale e preparazione di quella profonda) e agli scavi archeologici preventivi',
+        'Reportistica di cantiere: gestione e aggiornamento del Giornale dei Lavori, dei rapportini giornalieri e del registro di avanzamento (SAL)'
+      ]
+    }
+  },
   {
     id: 'cie-pisa',
     title: {
@@ -40,7 +76,7 @@ const experience = [
     location: 'Pisa, PI',
     logo: { abbr: 'CIE', bg: '#fff', src: 'assets/images/ergonomialogo.png' },
     startDate: { month: 10, year: 2024 },
-    endDate: null,
+    endDate: { month: 7, year: 2026 },
     responsibilities: {
       en: [
         'Ergonomic analysis of workplaces',
@@ -201,21 +237,21 @@ const education = [
 const skills = {
   technical: {
     en: [
-      'Risk Assessment (D.Lgs. 81/08)',
+      'Risk Assessment (D.Lgs. 81/08 · D.Lgs. 624/96)',
       'Ergonomic Analysis (OCRA, NIOSH, RULA, REBA)',
       'Environmental Sampling',
       'Workplace Inspections & Safety Audits',
       'Occupational Health & Safety Legislation'
     ],
     es: [
-      'Evaluación de Riesgos (D.Lgs. 81/08)',
+      'Evaluación de Riesgos (D.Lgs. 81/08 · D.Lgs. 624/96)',
       'Análisis Ergonómico (OCRA, NIOSH, RULA, REBA)',
       'Muestreos Ambientales',
       'Inspecciones y Auditorías de Seguridad',
       'Normativa de Salud y Seguridad Laboral'
     ],
     it: [
-      'Valutazione dei rischi (D.Lgs. 81/08)',
+      'Valutazione dei rischi (D.Lgs. 81/08 · D.Lgs. 624/96)',
       'Analisi ergonomica (OCRA, NIOSH, RULA, REBA)',
       'Campionamenti ambientali',
       'Ispezioni e audit sicurezza',
@@ -286,6 +322,15 @@ const certifications = [
       en: 'NIOSH 02 — Assessment of Complex Tasks and Advanced Management',
       es: 'NIOSH 02 — Evaluación de Tareas Complejas y Gestión Avanzada',
       it: 'Certificazione NIOSH 02 — La Valutazione dei Compiti Complessi e la Gestione Avanzata'
+    }
+  },
+  {
+    id: 'preposto',
+    category: 'Safety',
+    name: {
+      en: 'Safety Supervisor (Preposto) Qualification — D.Lgs. 81/08 · July 16, 2026',
+      es: 'Cualificación de Preposto (Encargado de Seguridad) — D.Lgs. 81/08 · 16 de julio de 2026',
+      it: 'Qualifica di Preposto alla Sicurezza — D.Lgs. 81/08 · 16 luglio 2026'
     }
   },
   {
@@ -365,8 +410,8 @@ const i18n = {
       contact: 'Contact'
     },
     hero: {
-      eyebrow:    'Ergonomist & Occupational Safety Specialist',
-      tagline:    'Protecting workers through science-based ergonomic analysis',
+      eyebrow:    'Occupational Safety Specialist',
+      tagline:    'Protecting workers through risk prevention and on-site safety management',
       cta:        'Get in Touch',
       explore:    'View Experience',
       downloadCV: 'Download CV'
@@ -415,8 +460,8 @@ const i18n = {
       contact: 'Contacto'
     },
     hero: {
-      eyebrow: 'Ergónoma y Especialista en Seguridad Laboral',
-      tagline: 'Protegiendo a los trabajadores mediante análisis ergonómico científico',
+      eyebrow: 'Especialista en Seguridad Laboral',
+      tagline: 'Protegiendo a los trabajadores mediante la prevención de riesgos y la gestión de la seguridad en obra',
       cta:        'Contactar',
       explore:    'Ver Experiencia',
       downloadCV: 'Descargar CV'
@@ -465,8 +510,8 @@ const i18n = {
       contact: 'Contatti'
     },
     hero: {
-      eyebrow: 'Ergonoma e Specialista in Sicurezza sul Lavoro',
-      tagline: 'Proteggere i lavoratori attraverso analisi ergonomica scientifica',
+      eyebrow: 'Specialista in Sicurezza sul Lavoro',
+      tagline: 'Proteggere i lavoratori attraverso la prevenzione dei rischi e la gestione della sicurezza in cantiere',
       cta:        'Contattami',
       explore:    'Vedi Esperienza',
       downloadCV: 'Scarica CV'

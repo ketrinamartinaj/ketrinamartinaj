@@ -13,7 +13,7 @@ const personal = {
   name: 'Ketrina Martinaj',
   email: 'ketrinamartinaj22@gmail.com',
   linkedin: 'https://www.linkedin.com/in/ketrinamartinaj',
-  location: 'Pisa, Italy',
+  location: 'Varese, Italy',
   dob: '22 January 2001',
   driversLicense: 'B',
   photo: 'assets/images/profile.jpg' // replace with real photo to enable
@@ -21,9 +21,9 @@ const personal = {
 
 // ── Professional summary ─────────────────────────────────────────────────────
 const summary = {
-  en: 'Graduate in Environmental and Workplace Prevention Techniques, ASPP-qualified and trained as Safety Supervisor (Preposto), with practical experience in occupational health and safety on construction and industrial sites. Currently working as HSE Assistant in the Works Management team of a Snam gas storage project, supporting the Safety Coordinator during the execution phase, managing Permits to Work and carrying out site inspections in compliance with D.Lgs. 81/08 and D.Lgs. 624/96. Earlier experience with public health and environmental bodies in workplace inspections, risk assessment, data collection and technical reporting. Strongly committed to risk prevention and operational safety.',
-  es: 'Graduada en Técnicas de Prevención en el Entorno y Lugares de Trabajo, con cualificación ASPP y formación como Preposto (Encargado de Seguridad), con experiencia práctica en seguridad y salud laboral en obras y entornos industriales. Actualmente trabajo como HSE Assistant en el equipo de Dirección de Obra de un proyecto de almacenamiento de gas de Snam, apoyando al Coordinador de Seguridad en fase de ejecución, gestionando los Permisos de Trabajo y realizando inspecciones en obra conforme al D.Lgs. 81/08 y al D.Lgs. 624/96. Experiencia previa en organismos públicos de salud y medio ambiente en inspecciones de lugares de trabajo, evaluación de riesgos, recopilación de datos e informes técnicos. Fuerte compromiso con la prevención de riesgos y la seguridad operativa.',
-  it: "Laureata in Tecniche della Prevenzione nell'Ambiente e nei Luoghi di Lavoro, abilitata ASPP e formata come Preposto alla Sicurezza, con esperienza pratica in materia di salute e sicurezza sul lavoro in cantieri e contesti industriali. Attualmente lavoro come HSE Assistant nel team di Direzione Lavori di un progetto Snam di stoccaggio gas, a supporto del Coordinatore per la Sicurezza in fase di esecuzione, con gestione dei Permessi di Lavoro e sopralluoghi in cantiere nel rispetto del D.Lgs. 81/08 e del D.Lgs. 624/96. Esperienze precedenti presso enti pubblici di sanità e ambiente in ispezioni nei luoghi di lavoro, valutazione dei rischi, raccolta dati e redazione di report tecnici. Forte attenzione alla prevenzione dei rischi e alla sicurezza operativa."
+  en: 'Graduate in Environmental and Workplace Prevention Techniques, ASPP-qualified and trained as Safety Supervisor (Preposto), with practical experience in occupational health and safety on construction and industrial sites. Currently working as HSE Assistant in the Works Management team of a Snam gas storage project, supporting the Safety Coordinator during the execution phase, checking Permits to Work and carrying out site inspections in compliance with D.Lgs. 81/08 and D.Lgs. 624/96. Earlier experience with public health and environmental bodies in workplace inspections, risk assessment, data collection and technical reporting. Strongly committed to risk prevention and operational safety.',
+  es: 'Graduada en Técnicas de Prevención en el Entorno y Lugares de Trabajo, con cualificación ASPP y formación como Preposto (Encargado de Seguridad), con experiencia práctica en seguridad y salud laboral en obras y entornos industriales. Actualmente trabajo como HSE Assistant en el equipo de Dirección de Obra de un proyecto de almacenamiento de gas de Snam, apoyando al Coordinador de Seguridad en fase de ejecución, controlando los Permisos de Trabajo y realizando inspecciones en obra conforme al D.Lgs. 81/08 y al D.Lgs. 624/96. Experiencia previa en organismos públicos de salud y medio ambiente en inspecciones de lugares de trabajo, evaluación de riesgos, recopilación de datos e informes técnicos. Fuerte compromiso con la prevención de riesgos y la seguridad operativa.',
+  it: "Laureata in Tecniche della Prevenzione nell'Ambiente e nei Luoghi di Lavoro, abilitata ASPP e formata come Preposto alla Sicurezza, con esperienza pratica in materia di salute e sicurezza sul lavoro in cantieri e contesti industriali. Attualmente lavoro come HSE Assistant nel team di Direzione Lavori di un progetto Snam di stoccaggio gas, a supporto del Coordinatore per la Sicurezza in fase di esecuzione, con controllo dei Permessi di Lavoro e sopralluoghi in cantiere nel rispetto del D.Lgs. 81/08 e del D.Lgs. 624/96. Esperienze precedenti presso enti pubblici di sanità e ambiente in ispezioni nei luoghi di lavoro, valutazione dei rischi, raccolta dati e redazione di report tecnici. Forte attenzione alla prevenzione dei rischi e alla sicurezza operativa."
 };
 
 // ── Professional experience ──────────────────────────────────────────────────
@@ -45,21 +45,27 @@ const experience = [
       en: [
         'HSE oversight and technical-operational site support within the Works Management team for the preventive archaeological surveys at the Sergnano Gas Storage Plant (Client: Snam; Contractor: Pizio S.p.A.; Executing company: Cesub S.r.l.)',
         'Safety and coordination: operational support to the Safety Coordinator (CSE) for compliance with D.Lgs. 81/08 and D.Lgs. 624/96; field inspections with preparation of verification reports',
-        'Permit to Work (PtW) management: issuing, checking and validating Permits to Work (hot work, deep excavations, confined spaces), verifying safety conditions before activities start inside the plant',
+        'Permit to Work (PtW) control: checking Permits to Work for activities inside the plant, in particular excavations near pipelines, and verifying safety conditions before activities start',
+        'Safety induction for visitors before access to the site and the plant',
+        'Behaviour Based Safety (BBS) activities: field observation of work behaviours and feedback to workers to promote safe behaviour',
         'Site surveillance: inspection visits with reports; operational oversight of the delicate phases linked to Unexploded Ordnance Clearance (surface clearance and preparation for deep clearance) and to preventive archaeological excavations',
         'Site reporting: management and updating of the Works Log, daily reports and the progress register (SAL)'
       ],
       es: [
         'Control HSE y apoyo técnico-operativo en obra dentro del equipo de Dirección de Obra para los sondeos arqueológicos preventivos en la Central de Almacenamiento de Gas de Sergnano (Cliente: Snam; Contratista: Pizio S.p.A.; Ejecutora: Cesub S.r.l.)',
         'Seguridad y coordinación: apoyo operativo al Coordinador de Seguridad (CSE) para el cumplimiento del D.Lgs. 81/08 y del D.Lgs. 624/96; inspecciones en campo con redacción de actas de verificación',
-        'Gestión de Permisos de Trabajo (PtW): emisión, control y validación de los Permits to Work (trabajos en caliente, excavaciones profundas, espacios confinados), verificando las condiciones de seguridad antes del inicio de las actividades en la planta',
+        'Control de Permisos de Trabajo (PtW): revisión de los Permits to Work para las actividades en la planta, en particular excavaciones cerca de conducciones, verificando las condiciones de seguridad antes del inicio de las actividades',
+        'Inducción de seguridad a los visitantes antes del acceso a la obra y a la planta',
+        'Actividades de Behaviour Based Safety (BBS): observación en campo de los comportamientos de trabajo y retroalimentación a los trabajadores para promover conductas seguras',
         'Vigilancia de campo: inspecciones con redacción de actas; control operativo de las fases delicadas ligadas a la Desactivación de Artefactos Explosivos Bélicos (superficial y preparación de la profunda) y a las excavaciones arqueológicas preventivas',
         'Documentación de obra: gestión y actualización del Libro de Obra, de los partes diarios y del registro de avance (SAL)'
       ],
       it: [
         'Presidio HSE e supporto tecnico-operativo in cantiere nel team di Direzione Lavori per i saggi archeologici preventivi presso la Centrale di Stoccaggio Gas di Sergnano (Committente: Snam; Appaltatore: Pizio S.p.A.; Esecutrice: Cesub S.r.l.)',
         'Sicurezza e coordinamento: supporto operativo al CSE per il rispetto del D.Lgs. 81/08 e del D.Lgs. 624/96; sopralluoghi in campo con stesura dei verbali di verifica',
-        "Gestione Permessi di Lavoro (PtW): emissione, controllo e validazione dei Permits to Work (lavori a caldo, scavi profondi, spazi confinati), verificando la conformità delle condizioni di sicurezza prima dell'inizio delle attività in impianto",
+        "Controllo dei Permessi di Lavoro (PtW): verifica dei Permits to Work per le attività in impianto, in particolare scavi in prossimità di condotte, controllando le condizioni di sicurezza prima dell'inizio delle attività",
+        "Induction di sicurezza ai visitatori prima dell'accesso al cantiere e all'impianto",
+        'Attività di Behaviour Based Safety (BBS): osservazioni sul campo dei comportamenti di lavoro e feedback ai lavoratori per promuovere comportamenti sicuri',
         'Vigilanza di campo: sopralluoghi ispettivi e stesura dei relativi verbali; presidio operativo delle fasi delicate legate alla Bonifica Ordigni Bellici (BOB superficiale e preparazione di quella profonda) e agli scavi archeologici preventivi',
         'Reportistica di cantiere: gestione e aggiornamento del Giornale dei Lavori, dei rapportini giornalieri e del registro di avanzamento (SAL)'
       ]

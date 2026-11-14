@@ -32,9 +32,9 @@ const experience = [
   {
     id: 'cpm-tecsaldo',
     title: {
-      en: 'HSE Assistant (Works Management Office) – Snam Storage Project',
-      es: 'Asistente HSE (Oficina de Dirección de Obra) – Proyecto Snam Stoccaggio',
-      it: 'HSE Assistant (Ufficio Direzione Lavori) – Progetto Snam Stoccaggio'
+      en: 'HSE Assistant (Works Management Office)',
+      es: 'Asistente HSE (Oficina de Dirección de Obra)',
+      it: 'HSE Assistant (Ufficio Direzione Lavori)'
     },
     organization: 'CPM Tecsaldo (Technip Energies)',
     location: 'Sergnano, CR',
@@ -43,7 +43,8 @@ const experience = [
     endDate: null,
     responsibilities: {
       en: [
-        'HSE oversight and technical-operational site support within the Works Management team for the preventive archaeological surveys at the Sergnano Gas Storage Plant (Client: Snam; Contractor: Pizio S.p.A.; Executing company: Cesub S.r.l.)',
+        'Site: Sergnano Gas Storage Plant (CR) – Preventive archaeological surveys',
+        'HSE oversight and technical-operational site support within the Works Management team (Client: Snam; Contractor: Pizio S.p.A.; Executing company: Cesub S.r.l.)',
         'Safety and coordination: operational support to the Safety Coordinator (CSE) for compliance with D.Lgs. 81/08 and D.Lgs. 624/96; field inspections with preparation of verification reports',
         'Permit to Work (PtW) control: checking Permits to Work for activities inside the plant, in particular excavations near pipelines, and verifying safety conditions before activities start',
         'Safety induction for visitors before access to the site and the plant',
@@ -52,7 +53,8 @@ const experience = [
         'Site reporting: management and updating of the Works Log, daily reports and the progress register (SAL)'
       ],
       es: [
-        'Control HSE y apoyo técnico-operativo en obra dentro del equipo de Dirección de Obra para los sondeos arqueológicos preventivos en la Central de Almacenamiento de Gas de Sergnano (Cliente: Snam; Contratista: Pizio S.p.A.; Ejecutora: Cesub S.r.l.)',
+        'Obra: Central de Almacenamiento de Gas de Sergnano (CR) – Sondeos arqueológicos preventivos',
+        'Control HSE y apoyo técnico-operativo en obra dentro del equipo de Dirección de Obra (Cliente: Snam; Contratista: Pizio S.p.A.; Ejecutora: Cesub S.r.l.)',
         'Seguridad y coordinación: apoyo operativo al Coordinador de Seguridad (CSE) para el cumplimiento del D.Lgs. 81/08 y del D.Lgs. 624/96; inspecciones en campo con redacción de actas de verificación',
         'Control de Permisos de Trabajo (PtW): revisión de los Permits to Work para las actividades en la planta, en particular excavaciones cerca de conducciones, verificando las condiciones de seguridad antes del inicio de las actividades',
         'Inducción de seguridad a los visitantes antes del acceso a la obra y a la planta',
@@ -61,7 +63,8 @@ const experience = [
         'Documentación de obra: gestión y actualización del Libro de Obra, de los partes diarios y del registro de avance (SAL)'
       ],
       it: [
-        'Presidio HSE e supporto tecnico-operativo in cantiere nel team di Direzione Lavori per i saggi archeologici preventivi presso la Centrale di Stoccaggio Gas di Sergnano (Committente: Snam; Appaltatore: Pizio S.p.A.; Esecutrice: Cesub S.r.l.)',
+        'Cantiere: Centrale di Stoccaggio Gas di Sergnano (CR) – Saggi archeologici preventivi',
+        'Presidio HSE e supporto tecnico-operativo in cantiere nel team di Direzione Lavori (Committente: Snam; Appaltatore: Pizio S.p.A.; Esecutrice: Cesub S.r.l.)',
         'Sicurezza e coordinamento: supporto operativo al CSE per il rispetto del D.Lgs. 81/08 e del D.Lgs. 624/96; sopralluoghi in campo con stesura dei verbali di verifica',
         "Controllo dei Permessi di Lavoro (PtW): verifica dei Permits to Work per le attività in impianto, in particolare scavi in prossimità di condotte, controllando le condizioni di sicurezza prima dell'inizio delle attività",
         "Induction di sicurezza ai visitatori prima dell'accesso al cantiere e all'impianto",

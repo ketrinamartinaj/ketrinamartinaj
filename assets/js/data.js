@@ -30,13 +30,13 @@ const summary = {
 // startDate / endDate: { month: 1-12, year: YYYY } — endDate null = current role
 const experience = [
   {
-    id: 'cpm-tecasaldo',
+    id: 'cpm-tecsaldo',
     title: {
       en: 'HSE Assistant (Works Management Office) – Snam Storage Project',
       es: 'Asistente HSE (Oficina de Dirección de Obra) – Proyecto Snam Stoccaggio',
       it: 'HSE Assistant (Ufficio Direzione Lavori) – Progetto Snam Stoccaggio'
     },
-    organization: 'CPM Tecasaldo (Technip Energies)',
+    organization: 'CPM Tecsaldo (Technip Energies)',
     location: 'Sergnano, CR',
     logo: { abbr: 'TEN', bg: '#fff', src: 'assets/images/technip.png' },
     startDate: { month: 7, year: 2026 },
